@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE2EDA2020AC6A88004CB277 /* DescricaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2EDA1E20AC6A88004CB277 /* DescricaoTableViewCell.swift */; };
+		BE2EDA2120AC6A88004CB277 /* DescricaoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE2EDA1F20AC6A88004CB277 /* DescricaoTableViewCell.xib */; };
+		BE2EDA2320AC7029004CB277 /* VouTePagarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2EDA2220AC7029004CB277 /* VouTePagarViewController.swift */; };
+		BE2EDA2520AC7CCE004CB277 /* SomeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2EDA2420AC7CCE004CB277 /* SomeStruct.swift */; };
+		BE2EDA2920ADBF55004CB277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2EDA2820ADBF54004CB277 /* Assets.xcassets */; };
+		BE82E54020AA22A2002761E7 /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82E53F20AA22A2002761E7 /* Pessoa.swift */; };
+		BE82E54220AB1392002761E7 /* Divida.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82E54120AB1392002761E7 /* Divida.swift */; };
+		BE82E54420AB1614002761E7 /* AddDividaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82E54320AB1614002761E7 /* AddDividaViewController.swift */; };
+		BE82E54620AB17FF002761E7 /* AddDividaDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82E54520AB17FF002761E7 /* AddDividaDelegate.swift */; };
+		BE82E54820AB24CB002761E7 /* DividaDetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82E54720AB24CB002761E7 /* DividaDetalheViewController.swift */; };
+		BEBA13D520A9B6F800D5B559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA13D420A9B6F800D5B559 /* AppDelegate.swift */; };
+		BEBA13DA20A9B6F800D5B559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBA13D820A9B6F800D5B559 /* Main.storyboard */; };
+		BEBA13DF20A9B6F800D5B559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBA13DD20A9B6F800D5B559 /* LaunchScreen.storyboard */; };
+		BEBA13EA20A9B6F800D5B559 /* BitchBetterHaveMyMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA13E920A9B6F800D5B559 /* BitchBetterHaveMyMoneyTests.swift */; };
+		BEBA13F520A9B6F800D5B559 /* BitchBetterHaveMyMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA13F420A9B6F800D5B559 /* BitchBetterHaveMyMoneyUITests.swift */; };
+		BEBA140320A9C24300D5B559 /* MePagueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA140220A9C24300D5B559 /* MePagueViewController.swift */; };
+		BEBA140620A9C44800D5B559 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA140420A9C44800D5B559 /* CustomTableViewCell.swift */; };
+		BEBA140720A9C44800D5B559 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEBA140520A9C44800D5B559 /* CustomTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEBA13E620A9B6F800D5B559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEBA13C920A9B6F800D5B559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEBA13D020A9B6F800D5B559;
+			remoteInfo = BitchBetterHaveMyMoney;
+		};
+		BEBA13F120A9B6F800D5B559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEBA13C920A9B6F800D5B559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEBA13D020A9B6F800D5B559;
+			remoteInfo = BitchBetterHaveMyMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE2EDA1E20AC6A88004CB277 /* DescricaoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescricaoTableViewCell.swift; sourceTree = "<group>"; };
+		BE2EDA1F20AC6A88004CB277 /* DescricaoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescricaoTableViewCell.xib; sourceTree = "<group>"; };
+		BE2EDA2220AC7029004CB277 /* VouTePagarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VouTePagarViewController.swift; sourceTree = "<group>"; };
+		BE2EDA2420AC7CCE004CB277 /* SomeStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeStruct.swift; sourceTree = "<group>"; };
+		BE2EDA2820ADBF54004CB277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE82E53F20AA22A2002761E7 /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
+		BE82E54120AB1392002761E7 /* Divida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divida.swift; sourceTree = "<group>"; };
+		BE82E54320AB1614002761E7 /* AddDividaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDividaViewController.swift; sourceTree = "<group>"; };
+		BE82E54520AB17FF002761E7 /* AddDividaDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDividaDelegate.swift; sourceTree = "<group>"; };
+		BE82E54720AB24CB002761E7 /* DividaDetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividaDetalheViewController.swift; sourceTree = "<group>"; };
+		BEBA13D120A9B6F800D5B559 /* BitchBetterHaveMyMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitchBetterHaveMyMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBA13D420A9B6F800D5B559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEBA13D920A9B6F800D5B559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEBA13DE20A9B6F800D5B559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEBA13E020A9B6F800D5B559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBA13E520A9B6F800D5B559 /* BitchBetterHaveMyMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitchBetterHaveMyMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBA13E920A9B6F800D5B559 /* BitchBetterHaveMyMoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitchBetterHaveMyMoneyTests.swift; sourceTree = "<group>"; };
+		BEBA13EB20A9B6F800D5B559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBA13F020A9B6F800D5B559 /* BitchBetterHaveMyMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitchBetterHaveMyMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBA13F420A9B6F800D5B559 /* BitchBetterHaveMyMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitchBetterHaveMyMoneyUITests.swift; sourceTree = "<group>"; };
+		BEBA13F620A9B6F800D5B559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBA140220A9C24300D5B559 /* MePagueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MePagueViewController.swift; sourceTree = "<group>"; };
+		BEBA140420A9C44800D5B559 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		BEBA140520A9C44800D5B559 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEBA13CE20A9B6F800D5B559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBA13E220A9B6F800D5B559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBA13ED20A9B6F800D5B559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE82E53E20AA1365002761E7 /* Zib */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA140420A9C44800D5B559 /* CustomTableViewCell.swift */,
+				BEBA140520A9C44800D5B559 /* CustomTableViewCell.xib */,
+				BE2EDA1E20AC6A88004CB277 /* DescricaoTableViewCell.swift */,
+				BE2EDA1F20AC6A88004CB277 /* DescricaoTableViewCell.xib */,
+			);
+			path = Zib;
+			sourceTree = "<group>";
+		};
+		BEBA13C820A9B6F800D5B559 = {
+			isa = PBXGroup;
+			children = (
+				BE2EDA2420AC7CCE004CB277 /* SomeStruct.swift */,
+				BEBA13D320A9B6F800D5B559 /* BitchBetterHaveMyMoney */,
+				BEBA13E820A9B6F800D5B559 /* BitchBetterHaveMyMoneyTests */,
+				BEBA13F320A9B6F800D5B559 /* BitchBetterHaveMyMoneyUITests */,
+				BEBA13D220A9B6F800D5B559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEBA13D220A9B6F800D5B559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA13D120A9B6F800D5B559 /* BitchBetterHaveMyMoney.app */,
+				BEBA13E520A9B6F800D5B559 /* BitchBetterHaveMyMoneyTests.xctest */,
+				BEBA13F020A9B6F800D5B559 /* BitchBetterHaveMyMoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEBA13D320A9B6F800D5B559 /* BitchBetterHaveMyMoney */ = {
+			isa = PBXGroup;
+			children = (
+				BE82E53E20AA1365002761E7 /* Zib */,
+				BEBA13D420A9B6F800D5B559 /* AppDelegate.swift */,
+				BEBA140220A9C24300D5B559 /* MePagueViewController.swift */,
+				BE2EDA2220AC7029004CB277 /* VouTePagarViewController.swift */,
+				BE82E53F20AA22A2002761E7 /* Pessoa.swift */,
+				BE82E54120AB1392002761E7 /* Divida.swift */,
+				BEBA13D820A9B6F800D5B559 /* Main.storyboard */,
+				BE82E54720AB24CB002761E7 /* DividaDetalheViewController.swift */,
+				BE82E54320AB1614002761E7 /* AddDividaViewController.swift */,
+				BE82E54520AB17FF002761E7 /* AddDividaDelegate.swift */,
+				BE2EDA2820ADBF54004CB277 /* Assets.xcassets */,
+				BEBA13DD20A9B6F800D5B559 /* LaunchScreen.storyboard */,
+				BEBA13E020A9B6F800D5B559 /* Info.plist */,
+			);
+			path = BitchBetterHaveMyMoney;
+			sourceTree = "<group>";
+		};
+		BEBA13E820A9B6F800D5B559 /* BitchBetterHaveMyMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA13E920A9B6F800D5B559 /* BitchBetterHaveMyMoneyTests.swift */,
+				BEBA13EB20A9B6F800D5B559 /* Info.plist */,
+			);
+			path = BitchBetterHaveMyMoneyTests;
+			sourceTree = "<group>";
+		};
+		BEBA13F320A9B6F800D5B559 /* BitchBetterHaveMyMoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA13F420A9B6F800D5B559 /* BitchBetterHaveMyMoneyUITests.swift */,
+				BEBA13F620A9B6F800D5B559 /* Info.plist */,
+			);
+			path = BitchBetterHaveMyMoneyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEBA13D020A9B6F800D5B559 /* BitchBetterHaveMyMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBA13F920A9B6F800D5B559 /* Build configuration list for PBXNativeTarget "BitchBetterHaveMyMoney" */;
+			buildPhases = (
+				BEBA13CD20A9B6F800D5B559 /* Sources */,
+				BEBA13CE20A9B6F800D5B559 /* Frameworks */,
+				BEBA13CF20A9B6F800D5B559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitchBetterHaveMyMoney;
+			productName = BitchBetterHaveMyMoney;
+			productReference = BEBA13D120A9B6F800D5B559 /* BitchBetterHaveMyMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEBA13E420A9B6F800D5B559 /* BitchBetterHaveMyMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBA13FC20A9B6F800D5B559 /* Build configuration list for PBXNativeTarget "BitchBetterHaveMyMoneyTests" */;
+			buildPhases = (
+				BEBA13E120A9B6F800D5B559 /* Sources */,
+				BEBA13E220A9B6F800D5B559 /* Frameworks */,
+				BEBA13E320A9B6F800D5B559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEBA13E720A9B6F800D5B559 /* PBXTargetDependency */,
+			);
+			name = BitchBetterHaveMyMoneyTests;
+			productName = BitchBetterHaveMyMoneyTests;
+			productReference = BEBA13E520A9B6F800D5B559 /* BitchBetterHaveMyMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEBA13EF20A9B6F800D5B559 /* BitchBetterHaveMyMoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBA13FF20A9B6F800D5B559 /* Build configuration list for PBXNativeTarget "BitchBetterHaveMyMoneyUITests" */;
+			buildPhases = (
+				BEBA13EC20A9B6F800D5B559 /* Sources */,
+				BEBA13ED20A9B6F800D5B559 /* Frameworks */,
+				BEBA13EE20A9B6F800D5B559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEBA13F220A9B6F800D5B559 /* PBXTargetDependency */,
+			);
+			name = BitchBetterHaveMyMoneyUITests;
+			productName = BitchBetterHaveMyMoneyUITests;
+			productReference = BEBA13F020A9B6F800D5B559 /* BitchBetterHaveMyMoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEBA13C920A9B6F800D5B559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Academy;
+				TargetAttributes = {
+					BEBA13D020A9B6F800D5B559 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BEBA13E420A9B6F800D5B559 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEBA13D020A9B6F800D5B559;
+					};
+					BEBA13EF20A9B6F800D5B559 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEBA13D020A9B6F800D5B559;
+					};
+				};
+			};
+			buildConfigurationList = BEBA13CC20A9B6F800D5B559 /* Build configuration list for PBXProject "BitchBetterHaveMyMoney" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEBA13C820A9B6F800D5B559;
+			productRefGroup = BEBA13D220A9B6F800D5B559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEBA13D020A9B6F800D5B559 /* BitchBetterHaveMyMoney */,
+				BEBA13E420A9B6F800D5B559 /* BitchBetterHaveMyMoneyTests */,
+				BEBA13EF20A9B6F800D5B559 /* BitchBetterHaveMyMoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEBA13CF20A9B6F800D5B559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBA13DF20A9B6F800D5B559 /* LaunchScreen.storyboard in Resources */,
+				BEBA140720A9C44800D5B559 /* CustomTableViewCell.xib in Resources */,
+				BEBA13DA20A9B6F800D5B559 /* Main.storyboard in Resources */,
+				BE2EDA2120AC6A88004CB277 /* DescricaoTableViewCell.xib in Resources */,
+				BE2EDA2920ADBF55004CB277 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBA13E320A9B6F800D5B559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBA13EE20A9B6F800D5B559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEBA13CD20A9B6F800D5B559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE82E54220AB1392002761E7 /* Divida.swift in Sources */,
+				BE82E54820AB24CB002761E7 /* DividaDetalheViewController.swift in Sources */,
+				BE82E54620AB17FF002761E7 /* AddDividaDelegate.swift in Sources */,
+				BE2EDA2520AC7CCE004CB277 /* SomeStruct.swift in Sources */,
+				BEBA140620A9C44800D5B559 /* CustomTableViewCell.swift in Sources */,
+				BEBA13D520A9B6F800D5B559 /* AppDelegate.swift in Sources */,
+				BE82E54420AB1614002761E7 /* AddDividaViewController.swift in Sources */,
+				BE2EDA2320AC7029004CB277 /* VouTePagarViewController.swift in Sources */,
+				BE82E54020AA22A2002761E7 /* Pessoa.swift in Sources */,
+				BEBA140320A9C24300D5B559 /* MePagueViewController.swift in Sources */,
+				BE2EDA2020AC6A88004CB277 /* DescricaoTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBA13E120A9B6F800D5B559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBA13EA20A9B6F800D5B559 /* BitchBetterHaveMyMoneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBA13EC20A9B6F800D5B559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBA13F520A9B6F800D5B559 /* BitchBetterHaveMyMoneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEBA13E720A9B6F800D5B559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEBA13D020A9B6F800D5B559 /* BitchBetterHaveMyMoney */;
+			targetProxy = BEBA13E620A9B6F800D5B559 /* PBXContainerItemProxy */;
+		};
+		BEBA13F220A9B6F800D5B559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEBA13D020A9B6F800D5B559 /* BitchBetterHaveMyMoney */;
+			targetProxy = BEBA13F120A9B6F800D5B559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEBA13D820A9B6F800D5B559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEBA13D920A9B6F800D5B559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEBA13DD20A9B6F800D5B559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEBA13DE20A9B6F800D5B559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEBA13F720A9B6F800D5B559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEBA13F820A9B6F800D5B559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEBA13FA20A9B6F800D5B559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3RQC49HYF;
+				INFOPLIST_FILE = BitchBetterHaveMyMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.academy.BitchBetterHaveMyMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEBA13FB20A9B6F800D5B559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3RQC49HYF;
+				INFOPLIST_FILE = BitchBetterHaveMyMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.academy.BitchBetterHaveMyMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEBA13FD20A9B6F800D5B559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3RQC49HYF;
+				INFOPLIST_FILE = BitchBetterHaveMyMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.academy.BitchBetterHaveMyMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitchBetterHaveMyMoney.app/BitchBetterHaveMyMoney";
+			};
+			name = Debug;
+		};
+		BEBA13FE20A9B6F800D5B559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3RQC49HYF;
+				INFOPLIST_FILE = BitchBetterHaveMyMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.academy.BitchBetterHaveMyMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitchBetterHaveMyMoney.app/BitchBetterHaveMyMoney";
+			};
+			name = Release;
+		};
+		BEBA140020A9B6F800D5B559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3RQC49HYF;
+				INFOPLIST_FILE = BitchBetterHaveMyMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.academy.BitchBetterHaveMyMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitchBetterHaveMyMoney;
+			};
+			name = Debug;
+		};
+		BEBA140120A9B6F800D5B559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3RQC49HYF;
+				INFOPLIST_FILE = BitchBetterHaveMyMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.academy.BitchBetterHaveMyMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitchBetterHaveMyMoney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEBA13CC20A9B6F800D5B559 /* Build configuration list for PBXProject "BitchBetterHaveMyMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBA13F720A9B6F800D5B559 /* Debug */,
+				BEBA13F820A9B6F800D5B559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBA13F920A9B6F800D5B559 /* Build configuration list for PBXNativeTarget "BitchBetterHaveMyMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBA13FA20A9B6F800D5B559 /* Debug */,
+				BEBA13FB20A9B6F800D5B559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBA13FC20A9B6F800D5B559 /* Build configuration list for PBXNativeTarget "BitchBetterHaveMyMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBA13FD20A9B6F800D5B559 /* Debug */,
+				BEBA13FE20A9B6F800D5B559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBA13FF20A9B6F800D5B559 /* Build configuration list for PBXNativeTarget "BitchBetterHaveMyMoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBA140020A9B6F800D5B559 /* Debug */,
+				BEBA140120A9B6F800D5B559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEBA13C920A9B6F800D5B559 /* Project object */;
+}
