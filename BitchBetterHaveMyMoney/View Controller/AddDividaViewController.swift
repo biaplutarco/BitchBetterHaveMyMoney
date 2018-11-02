@@ -82,7 +82,7 @@ class AddDividaViewController: UIViewController {
         
         let data = formatter.string(from: datePicker.date)
         
-        let novaDivida = Divida(valor: valor!, motivo: motivo!, data: data)
+        let novaDivida = Divida(valor: valor!, motivo: motivo!, data: data) //fazer um alert
         
         delegate?.novaDivida(divida: novaDivida, nome: nome!)
         

@@ -96,6 +96,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B22E0115218CF9C700CBBC66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE82E53F20AA22A2002761E7 /* Pessoa.swift */,
+				BE82E54120AB1392002761E7 /* Divida.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B22E0116218CFCFE00CBBC66 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA140220A9C24300D5B559 /* MePagueViewController.swift */,
+				BE2EDA2220AC7029004CB277 /* VouTePagarViewController.swift */,
+				BE82E54320AB1614002761E7 /* AddDividaViewController.swift */,
+				BE82E54720AB24CB002761E7 /* DividaDetalheViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		B22E0117218CFD1300CBBC66 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BE82E54520AB17FF002761E7 /* AddDividaDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 		BE82E53E20AA1365002761E7 /* Zib */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,16 +159,12 @@
 		BEBA13D320A9B6F800D5B559 /* BitchBetterHaveMyMoney */ = {
 			isa = PBXGroup;
 			children = (
-				BE82E53E20AA1365002761E7 /* Zib */,
 				BEBA13D420A9B6F800D5B559 /* AppDelegate.swift */,
-				BEBA140220A9C24300D5B559 /* MePagueViewController.swift */,
-				BE2EDA2220AC7029004CB277 /* VouTePagarViewController.swift */,
-				BE82E53F20AA22A2002761E7 /* Pessoa.swift */,
-				BE82E54120AB1392002761E7 /* Divida.swift */,
+				BE82E53E20AA1365002761E7 /* Zib */,
+				B22E0115218CF9C700CBBC66 /* Model */,
+				B22E0117218CFD1300CBBC66 /* Delegate */,
+				B22E0116218CFCFE00CBBC66 /* View Controller */,
 				BEBA13D820A9B6F800D5B559 /* Main.storyboard */,
-				BE82E54720AB24CB002761E7 /* DividaDetalheViewController.swift */,
-				BE82E54320AB1614002761E7 /* AddDividaViewController.swift */,
-				BE82E54520AB17FF002761E7 /* AddDividaDelegate.swift */,
 				BE2EDA2820ADBF54004CB277 /* Assets.xcassets */,
 				BEBA13DD20A9B6F800D5B559 /* LaunchScreen.storyboard */,
 				BEBA13E020A9B6F800D5B559 /* Info.plist */,
