@@ -77,16 +77,21 @@ class AddDividaViewController: UIViewController {
         let valor = Double(textFieldValor.text!)
         let motivo = textFieldMotivo.text
         
-        let formatter = DateFormatter()
-        formatter.dateStyle = .medium
-        
-        let data = formatter.string(from: datePicker.date)
-        
-        let novaDivida = Divida(valor: valor!, motivo: motivo!, data: data) //fazer um alert
-        
-        delegate?.novaDivida(divida: novaDivida, nome: nome!)
-        
-        dismiss(animated: true, completion: nil)
+        if nome == "" || valor == nil {
+            let alert = UIAlertController(title: "You didn't fill the fields!", message: "You can't save a debt without fill name or value.", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true)
+        } else {
+            let formatter = DateFormatter()
+            formatter.dateStyle = .medium
+            
+            let data = formatter.string(from: datePicker.date)
+            
+            let novaDivida = Divida(valor: valor!, motivo: motivo!, data: data) //fazer um alert
+            
+            delegate?.novaDivida(divida: novaDivida, nome: nome!)
+            dismiss(animated: true, completion: nil)
+        }
     }
     
     
